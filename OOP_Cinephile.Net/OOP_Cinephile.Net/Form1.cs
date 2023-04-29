@@ -13,49 +13,46 @@ namespace OOP_Cinephile.Net
 {
     public partial class Form1 : Form
     {
-        private Dictionary<string, string> UserDict = new Dictionary<string, string>();//usernames are key,passwords are value
-
-        private const string UserFilePath = "Credentials.txt";
+       
         public Form1()
         {
             InitializeComponent();
-            LoadUsersFromFile();
+            
         }
-        private void LoadUsersFromFile()
-        {
-            if (File.Exists(UserFilePath))
-            {
-                string[] userLines = File.ReadAllLines(UserFilePath);
-                foreach (string userLine in userLines)
-                {
-                    string[] userFields = userLine.Split(',');
-                    if (userFields.Length == 4) // ensure file format is correct
-                    {
-                        string name = userFields[0];
-                        string password = userFields[1];
-                        UserDict.Add(name, password);
-
-
-                    }
-                }
-            }
-        }
+        
 
         private void LogIn_Click(object sender, EventArgs e)
         {
-            string name = NameTB.Text.Trim();//whitespace characters get rejected
+            string name = NameTB.Text;
+            int age;
+            string email = MailTB.Text;
             string password = PasswordTB.Text;
 
-            if (UserDict.ContainsKey(name) && UserDict[name] == password)
+            // Read the user data from the text file
+            List<string> userData = File.ReadAllLines("Credentials.txt").ToList();
+
+            // Check if the user data matches any of the saved user data
+            bool isValid = false;
+            foreach (string user in userData)
             {
-                // successful login
-                Form3 f3 = new Form3(name);
-                f3.Show();
+                string[] parts = user.Split(',');
+                if (parts[0] == name && parts[1] == AgeTB.Text && parts[2] == email && parts[3] == password)
+                {
+                    isValid = true;
+                    break;
+                }
+            }
+
+            if (isValid)
+            {
+                // Redirect to Form3
+                Form3 form3 = new Form3(name);
+                form3.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Incorrect username or password!");
+                MessageBox.Show("Incorrect username, age, email or password!");
             }
         }
 

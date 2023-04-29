@@ -13,70 +13,61 @@ namespace OOP_Cinephile.Net
 {
     public partial class Form2 : Form
     {
-        private const string UserFilePath = "Credentials.txt";
+       
         public Form2()
         {
             InitializeComponent();
         }
 
-        private bool ValidateInputs()
-        {
-            // check if username already exists
-            string name = NameTB1.Text.Trim();
-            if (File.Exists(UserFilePath))
-            {
-                string[] userLines = File.ReadAllLines(UserFilePath);
-                foreach (string userLine in userLines)
-                {
-                    string[] userFields = userLine.Split(',');
-                    if (userFields.Length == 4 && userFields[0] == name) // ensure file format is correct
-                    {
-                        MessageBox.Show("A user with the same user name already exists");
-                        return false;
-                    }
-                }
-            }
-
-            // check if username and password are at least six characters long
-            if (name.Length < 6 || PasswordTB1.Text.Length < 6)
-            {
-                MessageBox.Show("Username and password must be at least six characters");
-                return false;
-            }
-
-            // check if password and re-typed password match
-            if (PasswordTB1.Text != RePassTB.Text)
-            {
-                MessageBox.Show("Passwords do not match");
-                return false;
-            }
-
-            return true;
-        }
+       
         private void SignUp_Click(object sender, EventArgs e)
         {
-            if (ValidateInputs())
+            string name = NameTB1.Text;
+            int age;
+            string email = MailTB1.Text;
+            string password = PasswordTB1.Text;
+            string retypePassword = RePassTB.Text;
+
+            // Check if the user name already exists
+            List<string> userData = File.ReadAllLines("Credentials.txt").ToList();
+            bool userExists = userData.Any(user => user.Split(',')[0] == name);
+
+            // Check if the passwords match
+            bool passwordsMatch = password == retypePassword;
+
+            // Check if the name and password are at least six characters long
+            bool nameValid = name.Length >= 6;
+            bool passwordValid = password.Length >= 6;
+
+            if (userExists)
             {
-                // save user to file
-                string name = NameTB1.Text.Trim();
-                string password = PasswordTB1.Text;
-                int age = Convert.ToInt32(AgeTB1.Text);
-                string mail = MailTB1.Text;
+                MessageBox.Show("A user with the same name already exists");
+            }
+            else if (!passwordsMatch)
+            {
+                MessageBox.Show("Passwords do not match");
+            }
+            else if (!nameValid || !passwordValid)
+            {
+                MessageBox.Show("Name and password must be at least six characters");
+            }
+            else
+            {
+                // Save the user data to the text file
+                string userDataString = $"{name},{AgeTB1.Text},{email},{password}";
+                File.AppendAllText("Credentials.txt", $"{userDataString}{Environment.NewLine}");
 
-
-                string userLine = string.Format("{0},{1},{2},{3}", name, password, age, mail);
-                File.AppendAllLines(UserFilePath, new string[] { userLine });
-
-                Form1 f1 = new Form1();
-                f1.Show();
+                // Redirect to Form1
+                Form1 form1 = new Form1();
+                form1.Show();
                 this.Hide();
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
+            Form3 f3 = new Form3();
+            f3.Show();
             this.Hide();
         }
 

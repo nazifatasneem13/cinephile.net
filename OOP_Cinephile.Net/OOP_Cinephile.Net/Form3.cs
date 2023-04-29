@@ -16,12 +16,12 @@ namespace OOP_Cinephile.Net
         public Form3()
         {
         }
-        private readonly string name;
+        
         public Form3(string name)
         {
             InitializeComponent();
-            this.name = name;
-            label3.Text = string.Format("Welcome, {0}!", name);
+            
+            label3.Text = $"Welcome, {name}!";
         }
 
         private void button8_Click(object sender, EventArgs e)
