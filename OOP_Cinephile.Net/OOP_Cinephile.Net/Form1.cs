@@ -24,24 +24,12 @@ namespace OOP_Cinephile.Net
         private void LogIn_Click(object sender, EventArgs e)
         {
             string name = NameTB.Text;
-            int age;
+            string age = AgeTB.Text;
             string email = MailTB.Text;
             string password = PasswordTB.Text;
 
-            // Read the user data from the text file
-            List<string> userData = File.ReadAllLines("Credentials.txt").ToList();
-
-            // Check if the user data matches any of the saved user data
-            bool isValid = false;
-            foreach (string user in userData)
-            {
-                string[] parts = user.Split(',');
-                if (parts[0] == name && parts[1] == AgeTB.Text && parts[2] == email && parts[3] == password)
-                {
-                    isValid = true;
-                    break;
-                }
-            }
+            // Check if the user's credentials are valid
+            bool isValid = CheckCredentials(name, age, email, password);
 
             if (isValid)
             {
@@ -52,8 +40,26 @@ namespace OOP_Cinephile.Net
             }
             else
             {
+                // Show an error message
                 MessageBox.Show("Incorrect username, age, email or password!");
             }
+        }
+        private bool CheckCredentials(string name, string age, string email, string password)
+        {
+            // Check if the user's credentials match a record in the text file
+            string[] lines = File.ReadAllLines("Credentials.txt");
+
+            foreach (string line in lines)
+            {
+                string[] fields = line.Split(',');
+
+                if (fields[0] == name && fields[1] == age && fields[2] == email && fields[3] == password)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private void F1Next_Click(object sender, EventArgs e)

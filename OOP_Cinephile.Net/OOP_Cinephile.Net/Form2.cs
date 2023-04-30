@@ -23,45 +23,66 @@ namespace OOP_Cinephile.Net
         private void SignUp_Click(object sender, EventArgs e)
         {
             string name = NameTB1.Text;
-            int age;
+            string age = AgeTB1.Text;
             string email = MailTB1.Text;
             string password = PasswordTB1.Text;
             string retypePassword = RePassTB.Text;
 
-            // Check if the user name already exists
-            List<string> userData = File.ReadAllLines("Credentials.txt").ToList();
-            bool userExists = userData.Any(user => user.Split(',')[0] == name);
-
-            // Check if the passwords match
-            bool passwordsMatch = password == retypePassword;
-
-            // Check if the name and password are at least six characters long
-            bool nameValid = name.Length >= 6;
-            bool passwordValid = password.Length >= 6;
-
-            if (userExists)
+            // Check if the name is unique
+            if (IsNameUnique(name))
             {
-                MessageBox.Show("A user with the same name already exists");
-            }
-            else if (!passwordsMatch)
-            {
-                MessageBox.Show("Passwords do not match");
-            }
-            else if (!nameValid || !passwordValid)
-            {
-                MessageBox.Show("Name and password must be at least six characters");
+                // Check if the password and retype password match
+                if (password == retypePassword)
+                {
+                    // Check if the email is valid
+                    if (IsValidEmail(email))
+                    {
+                        // Add the user to the text file
+                        string line = $"{name},{age},{email},{password}";
+                        File.AppendAllText("Credentials.txt", $"{line}{Environment.NewLine}");
+
+                        // Redirect to Form1
+                        Form1 form1 = new Form1();
+                        form1.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Email!Must contain @.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Passwords do not match");
+                }
             }
             else
             {
-                // Save the user data to the text file
-                string userDataString = $"{name},{AgeTB1.Text},{email},{password}";
-                File.AppendAllText("Credentials.txt", $"{userDataString}{Environment.NewLine}");
-
-                // Redirect to Form1
-                Form1 form1 = new Form1();
-                form1.Show();
-                this.Hide();
+                MessageBox.Show("A user with the same name already exists");
             }
+        }
+        private bool IsNameUnique(string name)
+        {
+            // Check if the name already exists in the text file
+            string[] lines = File.ReadAllLines("Credentials.txt");
+
+            foreach (string line in lines)
+            {
+                string[] fields = line.Split(',');
+
+                if (fields[0] == name)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            // Check if the email contains the "@" character
+            return email.Contains("@");
         }
 
         private void button3_Click(object sender, EventArgs e)
