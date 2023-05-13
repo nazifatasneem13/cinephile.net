@@ -10,24 +10,29 @@ using System.Windows.Forms;
 
 namespace OOP_Cinephile.Net
 {
-    public partial class Form4 : Form
+    public partial class Form6 : Form
     {
-        public Form4()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
             Form3 f3 = new Form3();
             f3.Show();
             this.Hide();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            Form6 f6 = new Form6();
-            f6.Show();
+            Form4 f4 = new Form4();      
+            f4.Show();
             this.Hide();
         }
     }
