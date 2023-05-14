@@ -34,9 +34,10 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.showListBox = new System.Windows.Forms.ListBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label7
@@ -96,14 +97,14 @@
             this.comboBox1.Size = new System.Drawing.Size(144, 24);
             this.comboBox1.TabIndex = 54;
             // 
-            // listBox4
+            // showListBox
             // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 16;
-            this.listBox4.Location = new System.Drawing.Point(426, 234);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(466, 340);
-            this.listBox4.TabIndex = 55;
+            this.showListBox.FormattingEnabled = true;
+            this.showListBox.ItemHeight = 16;
+            this.showListBox.Location = new System.Drawing.Point(426, 234);
+            this.showListBox.Name = "showListBox";
+            this.showListBox.Size = new System.Drawing.Size(466, 340);
+            this.showListBox.TabIndex = 55;
             // 
             // button7
             // 
@@ -125,14 +126,24 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(798, 59);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 38);
+            this.button1.TabIndex = 59;
+            this.button1.Text = "Find";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1296, 637);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.showListBox);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox2);
@@ -154,8 +165,9 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.ListBox showListBox;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button1;
     }
 }
