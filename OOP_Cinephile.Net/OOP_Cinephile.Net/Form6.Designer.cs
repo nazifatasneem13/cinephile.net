@@ -43,9 +43,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(476, 70);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 16);
+            this.label7.Size = new System.Drawing.Size(113, 18);
             this.label7.TabIndex = 49;
             this.label7.Text = "Find Username:";
             // 
@@ -59,9 +60,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(536, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
+            this.label2.Size = new System.Drawing.Size(44, 18);
             this.label2.TabIndex = 51;
             this.label2.Text = "Type:";
             // 
@@ -79,9 +81,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(544, 172);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 16);
+            this.label1.Size = new System.Drawing.Size(40, 18);
             this.label1.TabIndex = 53;
             this.label1.Text = "Sort:";
             // 
@@ -108,7 +111,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(12, 592);
+            this.button7.Location = new System.Drawing.Point(172, 572);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(83, 33);
             this.button7.TabIndex = 56;
@@ -139,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1296, 637);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
@@ -151,7 +155,8 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label7);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "Account";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

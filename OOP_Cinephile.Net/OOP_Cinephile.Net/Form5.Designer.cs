@@ -34,9 +34,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(359, 231);
+            this.button1.Location = new System.Drawing.Point(337, 210);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 34);
+            this.button1.Size = new System.Drawing.Size(90, 42);
             this.button1.TabIndex = 3;
             this.button1.Text = "Log In";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,9 +45,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(335, 185);
+            this.label1.BackColor = System.Drawing.Color.Azure;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(265, 144);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 16);
+            this.label1.Size = new System.Drawing.Size(233, 26);
             this.label1.TabIndex = 2;
             this.label1.Text = "COME BACK AGAIN!";
             // 
@@ -55,6 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

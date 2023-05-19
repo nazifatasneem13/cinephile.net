@@ -41,19 +41,18 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ShowNameTB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.RatingTB = new System.Windows.Forms.TextBox();
+            this.ReviewTB = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.GenreTB = new System.Windows.Forms.TextBox();
+            this.addToListComboBox = new System.Windows.Forms.ComboBox();
+            this.AddtoSelectedList = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -149,6 +148,7 @@
             this.button4.TabIndex = 32;
             this.button4.Text = "Favorites";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -158,6 +158,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Dropped";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -167,6 +168,7 @@
             this.button2.TabIndex = 30;
             this.button2.Text = "Watched";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -176,35 +178,15 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Plan To Watch";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(495, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "Type:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Movies",
-            "TV Shows"});
-            this.comboBox2.Location = new System.Drawing.Point(543, 70);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(144, 24);
-            this.comboBox2.TabIndex = 27;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(945, 70);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(939, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 16);
+            this.label1.Size = new System.Drawing.Size(40, 18);
             this.label1.TabIndex = 26;
             this.label1.Text = "Sort:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -222,98 +204,114 @@
             this.comboBox1.TabIndex = 25;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox1
+            // ShowNameTB
             // 
-            this.textBox1.Location = new System.Drawing.Point(188, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
-            this.textBox1.TabIndex = 42;
+            this.ShowNameTB.Location = new System.Drawing.Point(212, 26);
+            this.ShowNameTB.Name = "ShowNameTB";
+            this.ShowNameTB.Size = new System.Drawing.Size(195, 22);
+            this.ShowNameTB.TabIndex = 42;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 32);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 16);
+            this.label4.Size = new System.Drawing.Size(174, 18);
             this.label4.TabIndex = 43;
             this.label4.Text = "Enter Name of the Show:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(127, 57);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 16);
+            this.label5.Size = new System.Drawing.Size(54, 18);
             this.label5.TabIndex = 44;
             this.label5.Text = "Rating:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(121, 90);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 16);
+            this.label6.Size = new System.Drawing.Size(60, 18);
             this.label6.TabIndex = 45;
             this.label6.Text = "Review:";
             // 
-            // textBox2
+            // RatingTB
             // 
-            this.textBox2.Location = new System.Drawing.Point(188, 57);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 22);
-            this.textBox2.TabIndex = 46;
+            this.RatingTB.Location = new System.Drawing.Point(212, 62);
+            this.RatingTB.Name = "RatingTB";
+            this.RatingTB.Size = new System.Drawing.Size(195, 22);
+            this.RatingTB.TabIndex = 46;
             // 
-            // textBox3
+            // ReviewTB
             // 
-            this.textBox3.Location = new System.Drawing.Point(188, 90);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 22);
-            this.textBox3.TabIndex = 47;
+            this.ReviewTB.Location = new System.Drawing.Point(212, 90);
+            this.ReviewTB.Name = "ReviewTB";
+            this.ReviewTB.Size = new System.Drawing.Size(195, 22);
+            this.ReviewTB.TabIndex = 47;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(127, 127);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 16);
+            this.label7.Size = new System.Drawing.Size(53, 18);
             this.label7.TabIndex = 48;
             this.label7.Text = "Genre:";
             // 
-            // textBox4
+            // GenreTB
             // 
-            this.textBox4.Location = new System.Drawing.Point(188, 127);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 22);
-            this.textBox4.TabIndex = 49;
+            this.GenreTB.Location = new System.Drawing.Point(212, 124);
+            this.GenreTB.Name = "GenreTB";
+            this.GenreTB.Size = new System.Drawing.Size(195, 22);
+            this.GenreTB.TabIndex = 49;
             // 
-            // comboBox3
+            // addToListComboBox
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.addToListComboBox.FormattingEnabled = true;
+            this.addToListComboBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.addToListComboBox.Items.AddRange(new object[] {
             "Plan to watch",
             "Watched",
             "Dropped",
             "Favorites"});
-            this.comboBox3.Location = new System.Drawing.Point(626, 124);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(174, 24);
-            this.comboBox3.TabIndex = 50;
+            this.addToListComboBox.Location = new System.Drawing.Point(615, 124);
+            this.addToListComboBox.Name = "addToListComboBox";
+            this.addToListComboBox.Size = new System.Drawing.Size(174, 24);
+            this.addToListComboBox.TabIndex = 50;
+            // 
+            // AddtoSelectedList
+            // 
+            this.AddtoSelectedList.Location = new System.Drawing.Point(820, 117);
+            this.AddtoSelectedList.Name = "AddtoSelectedList";
+            this.AddtoSelectedList.Size = new System.Drawing.Size(90, 36);
+            this.AddtoSelectedList.TabIndex = 51;
+            this.AddtoSelectedList.Text = "Add to List";
+            this.AddtoSelectedList.UseVisualStyleBackColor = true;
+            this.AddtoSelectedList.Click += new System.EventHandler(this.AddtoSelectedList_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1224, 686);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.AddtoSelectedList);
+            this.Controls.Add(this.addToListComboBox);
+            this.Controls.Add(this.GenreTB);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ReviewTB);
+            this.Controls.Add(this.RatingTB);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ShowNameTB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -327,12 +325,12 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Watchlist";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -354,18 +352,17 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ShowNameTB;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox RatingTB;
+        private System.Windows.Forms.TextBox ReviewTB;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox GenreTB;
+        private System.Windows.Forms.ComboBox addToListComboBox;
+        private System.Windows.Forms.Button AddtoSelectedList;
     }
 }

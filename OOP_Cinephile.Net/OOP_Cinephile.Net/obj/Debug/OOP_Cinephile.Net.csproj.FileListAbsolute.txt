@@ -59,3 +59,20 @@ D:\Google Drive\1-2\SWE4202\codes\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.
 D:\Google Drive\1-2\SWE4202\codes\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.CoreCompileInputs.cache
 D:\Google Drive\1-2\SWE4202\codes\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.exe
 D:\Google Drive\1-2\SWE4202\codes\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.pdb
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.AssemblyReference.cache
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.SuggestedBindingRedirects.cache
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form1.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form2.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form3.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form4.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form5.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form6.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.front.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Properties.Resources.resources
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.GenerateResource.cache
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.CoreCompileInputs.cache
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.exe
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.pdb
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe.config
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe
+E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.pdb
