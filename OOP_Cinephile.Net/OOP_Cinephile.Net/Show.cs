@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Cinephile.Net
 {
-    internal class Show
+    public class Show
     {
         public string Name { get; set; }
         public string Genre { get; set; }
@@ -18,12 +18,9 @@ namespace OOP_Cinephile.Net
 
         public string Review { get; set; }
 
-        public Show(string name, string genre, int rating, string review)
+        public Show()
         {
-            this.Name = name;
-            this.Genre = genre;
-            this.Rating = rating;
-            this.Review = review;
+            
         }
     }
 }

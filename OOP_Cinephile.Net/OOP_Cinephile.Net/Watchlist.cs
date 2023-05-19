@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Cinephile.Net
 {
-    internal class Watchlist
+    public class Watchlist
     {
         private List<Show> shows;
 

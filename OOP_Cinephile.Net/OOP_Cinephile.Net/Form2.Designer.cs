@@ -42,6 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NameTB1
@@ -74,7 +75,7 @@
             // 
             // RePassTB
             // 
-            this.RePassTB.Location = new System.Drawing.Point(330, 229);
+            this.RePassTB.Location = new System.Drawing.Point(329, 236);
             this.RePassTB.Name = "RePassTB";
             this.RePassTB.Size = new System.Drawing.Size(151, 22);
             this.RePassTB.TabIndex = 31;
@@ -105,14 +106,14 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Private",
             "Public"});
-            this.comboBox1.Location = new System.Drawing.Point(330, 280);
+            this.comboBox1.Location = new System.Drawing.Point(329, 280);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 24);
             this.comboBox1.TabIndex = 28;
             // 
             // SignUp
             // 
-            this.SignUp.Location = new System.Drawing.Point(199, 280);
+            this.SignUp.Location = new System.Drawing.Point(287, 355);
             this.SignUp.Name = "SignUp";
             this.SignUp.Size = new System.Drawing.Size(83, 33);
             this.SignUp.TabIndex = 27;
@@ -165,11 +166,21 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Name:";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(197, 283);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 16);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Privacy:";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(833, 450);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.NameTB1);
             this.Controls.Add(this.AgeTB1);
             this.Controls.Add(this.MailTB1);
@@ -207,5 +218,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
     }
 }

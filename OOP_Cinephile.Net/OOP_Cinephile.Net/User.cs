@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Cinephile.Net
 {
-    internal class User
+    public class User
     {
         private int age;
         private string name;
