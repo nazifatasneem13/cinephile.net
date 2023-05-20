@@ -7,13 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace OOP_Cinephile.Net
 {
     public partial class Form6 : Form
     {
-        public Form6()
+        private bool ispublic;
+        public Form6(bool isPublic)
         {
+            bool ispublic = isPublic;
             InitializeComponent();
         }
 
@@ -38,7 +41,34 @@ namespace OOP_Cinephile.Net
 
         private void button1_Click(object sender, EventArgs e)
         {
+            User user = new User();
+            Form3 form3 = new Form3();
+            string[] lines = File.ReadAllLines("Credentials.txt");
+            foreach (string line in lines)
+            {
+                string[] fields = line.Split(',');
 
+                if (fields[0] == textBox4.Text)
+                {
+                    if (form3.userName == fields[0])
+                    {
+                        foreach (string field in fields)
+                        {
+                            if (ispublic == false)
+                            {
+                                MessageBox.Show("This account is private.");
+                            }
+                            else if (ispublic == true)
+                            {
+                                showListBox.DataSource = form3.planToWatchList;
+                                showListBox.DataSource = form3.watchedList;
+                                showListBox.DataSource = form3.droppedList;
+                                showListBox.DataSource = form3.favoritesList;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

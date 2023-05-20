@@ -62,6 +62,16 @@ namespace OOP_Cinephile.Net
                 MessageBox.Show("A user with the same name already exists");
             }
 
+            User user = new User();
+            if (comboBox1.Text == "private")
+            {
+                user.isPublic = false;
+            }
+            else if (comboBox1.Text == "public")
+            {
+                user.isPublic = true;
+            }
+
         }
         private bool IsNameUnique(string name)
         {
