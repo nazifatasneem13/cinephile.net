@@ -125,7 +125,7 @@ namespace OOP_Cinephile.Net
         private void AddtoSelectedList_Click(object sender, EventArgs e)
         {
             string selectedListType = addToListComboBox.SelectedItem.ToString();
-            Show show = new Show(ShowNameTB.Text, GenreTB.Text, Convert.ToInt32(RatingTB.Text), ReviewTB.Text);
+            Show show = new Show(ShowNameTB.Text, GenreTB.Text, RatingTB.Text, ReviewTB.Text);
 
             switch (selectedListType)
             {
