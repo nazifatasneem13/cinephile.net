@@ -21,7 +21,7 @@ namespace OOP_Cinephile.Net
 
         public User(int age, string name, string email, bool isPublic)
         {
-            Form6 form6 = new Form6(isPublic);
+            Form6 form6 = new Form6();
             this.age = age;
             this.name = name;
             this.email = email;

@@ -76,3 +76,4 @@ E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cin
 E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe.config
 E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe
 E:\PDF\SWE 4202(Object Oriented Concepts I Lab)\pulled_new\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.pdb
+D:\Google Drive\1-2\SWE4202\codes\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.front.resources

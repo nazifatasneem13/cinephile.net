@@ -45,8 +45,10 @@ namespace OOP_Cinephile.Net
             genrecombobox.Items.Add("Comedy");
             genrecombobox.Items.Add("Drama");
             genrecombobox.Items.Add("Fantasy");
-
-
+            genrecombobox.Items.Add("Adventure");
+            genrecombobox.Items.Add("Horror");
+            genrecombobox.Items.Add("Mystery");
+            genrecombobox.Items.Add("Psychological");
         }
 
         private void button8_Click(object sender, EventArgs e)

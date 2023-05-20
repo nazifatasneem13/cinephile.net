@@ -14,12 +14,11 @@ namespace OOP_Cinephile.Net
     public partial class Form6 : Form
     {
         private bool ispublic;
-        public Form6( )
-        { }
-        public Form6(bool isPublic)
+        
+        public Form6()
         {
-            bool ispublic = isPublic;
-            InitializeComponent();
+            //bool ispublic = isPublic;
+           InitializeComponent();
         }
 
         private void button8_Click(object sender, EventArgs e)
