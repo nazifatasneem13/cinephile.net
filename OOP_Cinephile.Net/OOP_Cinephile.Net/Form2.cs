@@ -61,6 +61,7 @@ namespace OOP_Cinephile.Net
             {
                 MessageBox.Show("A user with the same name already exists");
             }
+
         }
         private bool IsNameUnique(string name)
         {

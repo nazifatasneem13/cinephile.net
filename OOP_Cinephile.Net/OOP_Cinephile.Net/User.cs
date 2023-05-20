@@ -13,7 +13,11 @@ namespace OOP_Cinephile.Net
         private string email;
         private List<Watchlist> watchlists;
         private decimal balance;
-        private bool isPublic;
+        public bool isPublic;
+        public User()
+        {
+
+        }
 
         public User(int age, string name, string email, bool isPublic)
         {

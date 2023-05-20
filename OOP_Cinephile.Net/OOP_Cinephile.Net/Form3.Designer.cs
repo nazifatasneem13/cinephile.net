@@ -57,23 +57,25 @@
             this.watchedButton = new System.Windows.Forms.Button();
             this.droppedButton = new System.Windows.Forms.Button();
             this.favoritesButton = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(1089, 43);
+            this.label3.Location = new System.Drawing.Point(1112, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 24);
+            this.label3.Size = new System.Drawing.Size(114, 46);
             this.label3.TabIndex = 41;
             this.label3.Text = "label3";
             // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.Black;
             this.button8.Location = new System.Drawing.Point(1445, 612);
             this.button8.Name = "button8";
@@ -86,6 +88,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(39, 612);
             this.button7.Name = "button7";
@@ -98,7 +101,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
             this.button6.Location = new System.Drawing.Point(710, 609);
             this.button6.Name = "button6";
@@ -111,7 +114,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(605, 133);
             this.button5.Name = "button5";
@@ -161,7 +164,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(1300, 206);
             this.button4.Name = "button4";
@@ -174,7 +177,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(912, 206);
             this.button3.Name = "button3";
@@ -187,7 +190,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(516, 206);
             this.button2.Name = "button2";
@@ -200,7 +203,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(137, 206);
             this.button1.Name = "button1";
@@ -315,7 +318,7 @@
             // AddtoSelectedList
             // 
             this.AddtoSelectedList.BackColor = System.Drawing.Color.White;
-            this.AddtoSelectedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddtoSelectedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddtoSelectedList.ForeColor = System.Drawing.Color.Black;
             this.AddtoSelectedList.Location = new System.Drawing.Point(912, 131);
             this.AddtoSelectedList.Name = "AddtoSelectedList";
@@ -348,6 +351,7 @@
             // PlanButton
             // 
             this.PlanButton.BackColor = System.Drawing.Color.White;
+            this.PlanButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlanButton.ForeColor = System.Drawing.Color.Black;
             this.PlanButton.Location = new System.Drawing.Point(131, 567);
             this.PlanButton.Name = "PlanButton";
@@ -360,6 +364,7 @@
             // watchedButton
             // 
             this.watchedButton.BackColor = System.Drawing.Color.White;
+            this.watchedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.watchedButton.ForeColor = System.Drawing.Color.Black;
             this.watchedButton.Location = new System.Drawing.Point(530, 570);
             this.watchedButton.Name = "watchedButton";
@@ -372,6 +377,7 @@
             // droppedButton
             // 
             this.droppedButton.BackColor = System.Drawing.Color.White;
+            this.droppedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.droppedButton.ForeColor = System.Drawing.Color.Black;
             this.droppedButton.Location = new System.Drawing.Point(940, 573);
             this.droppedButton.Name = "droppedButton";
@@ -384,6 +390,7 @@
             // favoritesButton
             // 
             this.favoritesButton.BackColor = System.Drawing.Color.White;
+            this.favoritesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.favoritesButton.ForeColor = System.Drawing.Color.Black;
             this.favoritesButton.Location = new System.Drawing.Point(1322, 571);
             this.favoritesButton.Name = "favoritesButton";
@@ -393,12 +400,27 @@
             this.favoritesButton.UseVisualStyleBackColor = false;
             this.favoritesButton.Click += new System.EventHandler(this.favoritesButton_Click);
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.RosyBrown;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.Black;
+            this.button9.Location = new System.Drawing.Point(710, 25);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(174, 85);
+            this.button9.TabIndex = 58;
+            this.button9.Text = "Want to buy or rent shows?click here";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1556, 674);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.favoritesButton);
             this.Controls.Add(this.droppedButton);
             this.Controls.Add(this.watchedButton);
@@ -471,5 +493,6 @@
         private System.Windows.Forms.Button watchedButton;
         private System.Windows.Forms.Button droppedButton;
         private System.Windows.Forms.Button favoritesButton;
+        private System.Windows.Forms.Button button9;
     }
 }

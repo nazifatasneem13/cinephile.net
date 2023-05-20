@@ -74,7 +74,7 @@ namespace OOP_Cinephile.Net
 
             addToListComboBox.Items.Clear();
             addToListComboBox.Items.AddRange(new object[] { "Plan to Watch", "Watched", "Dropped", "Favorites" });
-            addToListComboBox.SelectedIndex = 0;
+            
             addToListComboBox.Visible = true;
             AddtoSelectedList.Visible = true;
         }
@@ -241,6 +241,13 @@ namespace OOP_Cinephile.Net
         private void favoritesButton_Click(object sender, EventArgs e)
         {
             FavoritesListBox.Items.Clear();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
     }
 }
