@@ -42,6 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button8
@@ -57,10 +58,11 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(577, 464);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 42);
+            this.button1.Size = new System.Drawing.Size(171, 42);
             this.button1.TabIndex = 29;
             this.button1.Text = "Confirm Decision";
             this.button1.UseVisualStyleBackColor = true;
@@ -81,11 +83,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(541, 372);
+            this.label2.Location = new System.Drawing.Point(509, 367);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 24);
+            this.label2.Size = new System.Drawing.Size(205, 27);
             this.label2.TabIndex = 27;
             this.label2.Text = "What to do with it?";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -105,11 +107,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(587, 311);
+            this.label1.Location = new System.Drawing.Point(564, 309);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 24);
+            this.label1.Size = new System.Drawing.Size(150, 27);
             this.label1.TabIndex = 25;
             this.label1.Text = "What to Add?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -118,11 +120,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Black;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(589, 164);
+            this.label3.Location = new System.Drawing.Point(553, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 24);
+            this.label3.Size = new System.Drawing.Size(161, 27);
             this.label3.TabIndex = 32;
             this.label3.Text = "Initial Balance:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -138,11 +140,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Black;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(657, 262);
+            this.label4.Location = new System.Drawing.Point(647, 262);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 24);
+            this.label4.Size = new System.Drawing.Size(67, 27);
             this.label4.TabIndex = 52;
             this.label4.Text = "Price:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -156,10 +158,11 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(774, 464);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 42);
+            this.button2.Size = new System.Drawing.Size(165, 42);
             this.button2.TabIndex = 54;
             this.button2.Text = "Show Balance";
             this.button2.UseVisualStyleBackColor = true;
@@ -169,11 +172,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Black;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(554, 210);
+            this.label5.Location = new System.Drawing.Point(510, 207);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 24);
+            this.label5.Size = new System.Drawing.Size(204, 27);
             this.label5.TabIndex = 55;
             this.label5.Text = "Name of the show:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -189,14 +192,25 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Black;
-            this.label6.Font = new System.Drawing.Font("NSimSun", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(569, 39);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(403, 47);
+            this.label6.Size = new System.Drawing.Size(484, 85);
             this.label6.TabIndex = 57;
             this.label6.Text = "...ᴀᴅᴅ ᴛᴏ ᴄᴀʀᴛ...";
             this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // button3
+            // 
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(969, 556);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(93, 37);
+            this.button3.TabIndex = 58;
+            this.button3.Text = "Log Out";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form4
             // 
@@ -204,6 +218,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1556, 674);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label5);
@@ -244,5 +259,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
     }
 }

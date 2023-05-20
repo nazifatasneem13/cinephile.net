@@ -103,7 +103,7 @@
             this.button6.BackColor = System.Drawing.Color.White;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(710, 609);
+            this.button6.Location = new System.Drawing.Point(693, 628);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 34);
             this.button6.TabIndex = 38;
@@ -114,7 +114,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(605, 133);
             this.button5.Name = "button5";
@@ -164,7 +164,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(1300, 206);
             this.button4.Name = "button4";
@@ -177,7 +177,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(912, 206);
             this.button3.Name = "button3";
@@ -190,9 +190,9 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(516, 206);
+            this.button2.Location = new System.Drawing.Point(541, 206);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 34);
             this.button2.TabIndex = 30;
@@ -203,11 +203,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(137, 206);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 34);
+            this.button1.Size = new System.Drawing.Size(162, 34);
             this.button1.TabIndex = 29;
             this.button1.Text = "Plan To Watch";
             this.button1.UseVisualStyleBackColor = false;
@@ -217,11 +217,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(1227, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 19);
+            this.label1.Size = new System.Drawing.Size(59, 27);
             this.label1.TabIndex = 26;
             this.label1.Text = "Sort:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -241,20 +241,21 @@
             // 
             // ShowNameTB
             // 
-            this.ShowNameTB.Location = new System.Drawing.Point(253, 49);
+            this.ShowNameTB.Location = new System.Drawing.Point(320, 48);
             this.ShowNameTB.Name = "ShowNameTB";
             this.ShowNameTB.Size = new System.Drawing.Size(195, 21);
             this.ShowNameTB.TabIndex = 42;
+            this.ShowNameTB.TextChanged += new System.EventHandler(this.ShowNameTB_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Black;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(35, 51);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(198, 19);
+            this.label4.Size = new System.Drawing.Size(264, 27);
             this.label4.TabIndex = 43;
             this.label4.Text = "Enter Name of the Show:";
             // 
@@ -262,11 +263,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Black;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(148, 80);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 19);
+            this.label5.Size = new System.Drawing.Size(84, 27);
             this.label5.TabIndex = 44;
             this.label5.Text = "Rating:";
             // 
@@ -274,17 +275,17 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Black;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(143, 112);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 19);
+            this.label6.Size = new System.Drawing.Size(91, 27);
             this.label6.TabIndex = 45;
             this.label6.Text = "Review:";
             // 
             // ReviewTB
             // 
-            this.ReviewTB.Location = new System.Drawing.Point(253, 110);
+            this.ReviewTB.Location = new System.Drawing.Point(320, 109);
             this.ReviewTB.Name = "ReviewTB";
             this.ReviewTB.Size = new System.Drawing.Size(195, 21);
             this.ReviewTB.TabIndex = 47;
@@ -293,11 +294,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Black;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(148, 146);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 19);
+            this.label7.Size = new System.Drawing.Size(78, 27);
             this.label7.TabIndex = 48;
             this.label7.Text = "Genre:";
             // 
@@ -318,11 +319,11 @@
             // AddtoSelectedList
             // 
             this.AddtoSelectedList.BackColor = System.Drawing.Color.White;
-            this.AddtoSelectedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddtoSelectedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddtoSelectedList.ForeColor = System.Drawing.Color.Black;
             this.AddtoSelectedList.Location = new System.Drawing.Point(912, 131);
             this.AddtoSelectedList.Name = "AddtoSelectedList";
-            this.AddtoSelectedList.Size = new System.Drawing.Size(90, 34);
+            this.AddtoSelectedList.Size = new System.Drawing.Size(130, 34);
             this.AddtoSelectedList.TabIndex = 51;
             this.AddtoSelectedList.Text = "Add to List";
             this.AddtoSelectedList.UseVisualStyleBackColor = false;
@@ -334,7 +335,7 @@
             this.ratingcombobox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ratingcombobox.Items.AddRange(new object[] {
             ""});
-            this.ratingcombobox.Location = new System.Drawing.Point(253, 76);
+            this.ratingcombobox.Location = new System.Drawing.Point(320, 80);
             this.ratingcombobox.Name = "ratingcombobox";
             this.ratingcombobox.Size = new System.Drawing.Size(195, 23);
             this.ratingcombobox.TabIndex = 52;
@@ -344,7 +345,7 @@
             // 
             this.genrecombobox.FormattingEnabled = true;
             this.genrecombobox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.genrecombobox.Location = new System.Drawing.Point(253, 139);
+            this.genrecombobox.Location = new System.Drawing.Point(320, 144);
             this.genrecombobox.Name = "genrecombobox";
             this.genrecombobox.Size = new System.Drawing.Size(195, 23);
             this.genrecombobox.TabIndex = 53;
@@ -405,7 +406,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.RosyBrown;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.Black;
             this.button9.Location = new System.Drawing.Point(710, 25);
             this.button9.Name = "button9";

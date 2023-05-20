@@ -268,5 +268,24 @@ namespace OOP_Cinephile.Net
         {
             
         }
+        private void DisplayShowList(List<Show> showList, string listName, ListBox listBox)
+        {
+            listBox.Items.Clear();
+            listBox.Items.Add($"--- {listName} ---");
+
+            foreach (Show show in showList)
+            {
+                listBox.Items.Add($"Name: {show.Name}");
+                listBox.Items.Add($"Genre: {show.Genre}");
+                listBox.Items.Add($"Rating: {show.Rating}");
+                listBox.Items.Add($"Review: {show.Review}");
+                listBox.Items.Add("-----------------------");
+            }
+        }
+
+        private void ShowNameTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
