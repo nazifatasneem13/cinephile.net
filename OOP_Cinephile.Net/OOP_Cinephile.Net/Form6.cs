@@ -28,8 +28,8 @@ namespace OOP_Cinephile.Net
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            f3.Show();
+            Form1 f1 = new Form1();
+            f1.Show();
             this.Hide();
         }
 
