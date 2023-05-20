@@ -49,45 +49,49 @@
             // 
             // PasswordTB
             // 
+            this.PasswordTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTB.Location = new System.Drawing.Point(617, 379);
             this.PasswordTB.Name = "PasswordTB";
-            this.PasswordTB.Size = new System.Drawing.Size(164, 22);
+            this.PasswordTB.Size = new System.Drawing.Size(164, 27);
             this.PasswordTB.TabIndex = 24;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(496, 379);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 24);
+            this.label4.Size = new System.Drawing.Size(114, 27);
             this.label4.TabIndex = 23;
             this.label4.Text = "Password:";
             // 
             // MailTB
             // 
+            this.MailTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MailTB.Location = new System.Drawing.Point(617, 331);
             this.MailTB.Name = "MailTB";
-            this.MailTB.Size = new System.Drawing.Size(164, 22);
+            this.MailTB.Size = new System.Drawing.Size(164, 27);
             this.MailTB.TabIndex = 22;
             // 
             // AgeTB
             // 
+            this.AgeTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeTB.Location = new System.Drawing.Point(617, 279);
             this.AgeTB.Name = "AgeTB";
-            this.AgeTB.Size = new System.Drawing.Size(164, 22);
+            this.AgeTB.Size = new System.Drawing.Size(164, 27);
             this.AgeTB.TabIndex = 21;
             // 
             // NameTB
             // 
+            this.NameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameTB.Location = new System.Drawing.Point(617, 233);
             this.NameTB.Name = "NameTB";
-            this.NameTB.Size = new System.Drawing.Size(164, 22);
+            this.NameTB.Size = new System.Drawing.Size(164, 27);
             this.NameTB.TabIndex = 20;
             // 
             // F1Next
             // 
-            this.F1Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F1Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F1Next.ForeColor = System.Drawing.SystemColors.Desktop;
             this.F1Next.Location = new System.Drawing.Point(958, 567);
             this.F1Next.Name = "F1Next";
@@ -99,11 +103,11 @@
             // 
             // CreateAccount
             // 
-            this.CreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateAccount.ForeColor = System.Drawing.SystemColors.Desktop;
             this.CreateAccount.Location = new System.Drawing.Point(713, 487);
             this.CreateAccount.Name = "CreateAccount";
-            this.CreateAccount.Size = new System.Drawing.Size(145, 41);
+            this.CreateAccount.Size = new System.Drawing.Size(145, 49);
             this.CreateAccount.TabIndex = 18;
             this.CreateAccount.Text = "Create Account!";
             this.CreateAccount.UseVisualStyleBackColor = true;
@@ -112,28 +116,28 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(522, 331);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 24);
+            this.label3.Size = new System.Drawing.Size(83, 27);
             this.label3.TabIndex = 17;
             this.label3.Text = "E-Mail:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(542, 279);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 24);
+            this.label2.Size = new System.Drawing.Size(58, 27);
             this.label2.TabIndex = 16;
             this.label2.Text = "Age:";
             // 
             // LogIn
             // 
-            this.LogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogIn.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LogIn.Location = new System.Drawing.Point(617, 428);
+            this.LogIn.Location = new System.Drawing.Point(655, 428);
             this.LogIn.Name = "LogIn";
             this.LogIn.Size = new System.Drawing.Size(88, 36);
             this.LogIn.TabIndex = 15;
@@ -144,20 +148,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(525, 233);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 24);
+            this.label1.Size = new System.Drawing.Size(79, 27);
             this.label1.TabIndex = 14;
             this.label1.Text = "Name:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(440, 496);
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(408, 491);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(242, 24);
+            this.label6.Size = new System.Drawing.Size(285, 27);
             this.label6.TabIndex = 26;
             this.label6.Text = "Don\'t have an account yet?";
             // 

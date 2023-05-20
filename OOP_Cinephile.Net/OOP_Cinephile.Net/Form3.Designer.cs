@@ -64,18 +64,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(1112, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 45);
+            this.label3.Size = new System.Drawing.Size(114, 46);
             this.label3.TabIndex = 41;
             this.label3.Text = "label3";
             // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.Black;
             this.button8.Location = new System.Drawing.Point(1445, 612);
             this.button8.Name = "button8";
@@ -88,7 +88,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(39, 612);
             this.button7.Name = "button7";
@@ -101,8 +101,8 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Red;
             this.button6.Location = new System.Drawing.Point(693, 628);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 34);
@@ -126,39 +126,43 @@
             // 
             // FavoritesListBox
             // 
+            this.FavoritesListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FavoritesListBox.FormattingEnabled = true;
-            this.FavoritesListBox.ItemHeight = 15;
+            this.FavoritesListBox.ItemHeight = 20;
             this.FavoritesListBox.Location = new System.Drawing.Point(1178, 259);
             this.FavoritesListBox.Name = "FavoritesListBox";
-            this.FavoritesListBox.Size = new System.Drawing.Size(366, 289);
+            this.FavoritesListBox.Size = new System.Drawing.Size(366, 284);
             this.FavoritesListBox.TabIndex = 36;
             // 
             // DroppedListBox
             // 
+            this.DroppedListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DroppedListBox.FormattingEnabled = true;
-            this.DroppedListBox.ItemHeight = 15;
+            this.DroppedListBox.ItemHeight = 20;
             this.DroppedListBox.Location = new System.Drawing.Point(783, 259);
             this.DroppedListBox.Name = "DroppedListBox";
-            this.DroppedListBox.Size = new System.Drawing.Size(366, 289);
+            this.DroppedListBox.Size = new System.Drawing.Size(366, 284);
             this.DroppedListBox.TabIndex = 35;
             // 
             // WatchedListBox
             // 
+            this.WatchedListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WatchedListBox.FormattingEnabled = true;
-            this.WatchedListBox.ItemHeight = 15;
+            this.WatchedListBox.ItemHeight = 20;
             this.WatchedListBox.Location = new System.Drawing.Point(395, 259);
             this.WatchedListBox.Name = "WatchedListBox";
-            this.WatchedListBox.Size = new System.Drawing.Size(366, 289);
+            this.WatchedListBox.Size = new System.Drawing.Size(366, 284);
             this.WatchedListBox.TabIndex = 34;
             this.WatchedListBox.SelectedIndexChanged += new System.EventHandler(this.WatchedListBox_SelectedIndexChanged);
             // 
             // planToWatchListBox
             // 
+            this.planToWatchListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.planToWatchListBox.FormattingEnabled = true;
-            this.planToWatchListBox.ItemHeight = 15;
+            this.planToWatchListBox.ItemHeight = 20;
             this.planToWatchListBox.Location = new System.Drawing.Point(12, 259);
             this.planToWatchListBox.Name = "planToWatchListBox";
-            this.planToWatchListBox.Size = new System.Drawing.Size(366, 289);
+            this.planToWatchListBox.Size = new System.Drawing.Size(366, 284);
             this.planToWatchListBox.TabIndex = 33;
             // 
             // button4
@@ -353,7 +357,7 @@
             // PlanButton
             // 
             this.PlanButton.BackColor = System.Drawing.Color.White;
-            this.PlanButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlanButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlanButton.ForeColor = System.Drawing.Color.Black;
             this.PlanButton.Location = new System.Drawing.Point(131, 567);
             this.PlanButton.Name = "PlanButton";
@@ -366,7 +370,7 @@
             // watchedButton
             // 
             this.watchedButton.BackColor = System.Drawing.Color.White;
-            this.watchedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.watchedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.watchedButton.ForeColor = System.Drawing.Color.Black;
             this.watchedButton.Location = new System.Drawing.Point(530, 570);
             this.watchedButton.Name = "watchedButton";
@@ -379,7 +383,7 @@
             // droppedButton
             // 
             this.droppedButton.BackColor = System.Drawing.Color.White;
-            this.droppedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.droppedButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.droppedButton.ForeColor = System.Drawing.Color.Black;
             this.droppedButton.Location = new System.Drawing.Point(940, 573);
             this.droppedButton.Name = "droppedButton";
@@ -392,7 +396,7 @@
             // favoritesButton
             // 
             this.favoritesButton.BackColor = System.Drawing.Color.White;
-            this.favoritesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.favoritesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.favoritesButton.ForeColor = System.Drawing.Color.Black;
             this.favoritesButton.Location = new System.Drawing.Point(1322, 571);
             this.favoritesButton.Name = "favoritesButton";
@@ -452,7 +456,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form3";

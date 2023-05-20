@@ -39,6 +39,7 @@ namespace OOP_Cinephile.Net
             ratingcombobox.Items.Add("PG-13");
             ratingcombobox.Items.Add("R");
             ratingcombobox.Items.Add("NC-17");
+            ratingcombobox.Items.Add("E");
 
             // Populate the genreComboBox with options
             genrecombobox.Items.Add("Action");
@@ -49,6 +50,11 @@ namespace OOP_Cinephile.Net
             genrecombobox.Items.Add("Horror");
             genrecombobox.Items.Add("Mystery");
             genrecombobox.Items.Add("Psychological");
+            genrecombobox.Items.Add("Animation");
+            genrecombobox.Items.Add("Thriller");
+            genrecombobox.Items.Add("Sci-fi");
+            genrecombobox.Items.Add("History");
+            genrecombobox.Items.Add("War");
         }
 
         private void button8_Click(object sender, EventArgs e)

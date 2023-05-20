@@ -57,9 +57,10 @@
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(763, 88);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 22);
+            this.textBox4.Size = new System.Drawing.Size(195, 27);
             this.textBox4.TabIndex = 50;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -78,6 +79,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Alphatebically",
@@ -85,17 +87,18 @@
             "Genre"});
             this.comboBox1.Location = new System.Drawing.Point(763, 148);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 24);
+            this.comboBox1.Size = new System.Drawing.Size(144, 28);
             this.comboBox1.TabIndex = 54;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // showListBox
             // 
+            this.showListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showListBox.FormattingEnabled = true;
-            this.showListBox.ItemHeight = 16;
+            this.showListBox.ItemHeight = 20;
             this.showListBox.Location = new System.Drawing.Point(592, 255);
             this.showListBox.Name = "showListBox";
-            this.showListBox.Size = new System.Drawing.Size(466, 340);
+            this.showListBox.Size = new System.Drawing.Size(466, 324);
             this.showListBox.TabIndex = 55;
             this.showListBox.SelectedIndexChanged += new System.EventHandler(this.showListBox_SelectedIndexChanged);
             // 
@@ -114,7 +117,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.ForeColor = System.Drawing.Color.Red;
             this.button6.Location = new System.Drawing.Point(1117, 553);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(124, 42);
@@ -141,7 +144,7 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 31);
+            this.label2.Location = new System.Drawing.Point(85, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(404, 62);
             this.label2.TabIndex = 60;
@@ -150,7 +153,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(72, 100);
+            this.pictureBox1.Location = new System.Drawing.Point(142, 112);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(276, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

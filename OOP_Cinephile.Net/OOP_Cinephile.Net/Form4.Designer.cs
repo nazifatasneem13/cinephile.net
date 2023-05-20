@@ -46,7 +46,7 @@
             // button8
             // 
             this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(1105, 556);
+            this.button8.Location = new System.Drawing.Point(1112, 520);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(93, 37);
             this.button8.TabIndex = 31;
@@ -58,7 +58,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(577, 464);
+            this.button1.Location = new System.Drawing.Point(736, 461);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 42);
             this.button1.TabIndex = 29;
@@ -68,13 +68,14 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "Buy",
             "Rent"});
             this.comboBox2.Location = new System.Drawing.Point(742, 370);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(177, 26);
+            this.comboBox2.Size = new System.Drawing.Size(177, 30);
             this.comboBox2.TabIndex = 28;
             // 
             // label2
@@ -105,9 +106,10 @@
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(742, 164);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(177, 24);
+            this.textBox4.Size = new System.Drawing.Size(177, 28);
             this.textBox4.TabIndex = 51;
             // 
             // label4
@@ -125,16 +127,17 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(742, 262);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 24);
+            this.textBox1.Size = new System.Drawing.Size(177, 28);
             this.textBox1.TabIndex = 53;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(774, 464);
+            this.button2.Location = new System.Drawing.Point(736, 520);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 42);
             this.button2.TabIndex = 54;
@@ -157,9 +160,10 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(742, 210);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 24);
+            this.textBox2.Size = new System.Drawing.Size(177, 28);
             this.textBox2.TabIndex = 56;
             // 
             // label6
@@ -177,8 +181,9 @@
             // 
             // button3
             // 
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(969, 556);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Red;
+            this.button3.Location = new System.Drawing.Point(1112, 578);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 37);
             this.button3.TabIndex = 58;
