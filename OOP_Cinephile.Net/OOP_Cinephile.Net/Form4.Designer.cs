@@ -100,6 +100,7 @@
             this.label2.Size = new System.Drawing.Size(173, 24);
             this.label2.TabIndex = 27;
             this.label2.Text = "What to do with it?";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // comboBox1
             // 
@@ -123,6 +124,7 @@
             this.label1.Size = new System.Drawing.Size(127, 24);
             this.label1.TabIndex = 25;
             this.label1.Text = "What to Add?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -135,6 +137,7 @@
             this.label3.Size = new System.Drawing.Size(136, 24);
             this.label3.TabIndex = 32;
             this.label3.Text = "Initial Balance:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox4
             // 
@@ -154,6 +157,7 @@
             this.label4.Size = new System.Drawing.Size(57, 24);
             this.label4.TabIndex = 52;
             this.label4.Text = "Price:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox1
             // 
@@ -184,6 +188,7 @@
             this.label5.Size = new System.Drawing.Size(171, 24);
             this.label5.TabIndex = 55;
             this.label5.Text = "Name of the show:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBox2
             // 
@@ -203,6 +208,7 @@
             this.label6.Size = new System.Drawing.Size(403, 47);
             this.label6.TabIndex = 57;
             this.label6.Text = "...ᴀᴅᴅ ᴛᴏ ᴄᴀʀᴛ...";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Form4
             // 

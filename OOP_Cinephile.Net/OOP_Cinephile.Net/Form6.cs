@@ -14,6 +14,8 @@ namespace OOP_Cinephile.Net
     public partial class Form6 : Form
     {
         private bool ispublic;
+        public Form6( )
+        { }
         public Form6(bool isPublic)
         {
             bool ispublic = isPublic;
@@ -69,6 +71,31 @@ namespace OOP_Cinephile.Net
                     }
                 }
             }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

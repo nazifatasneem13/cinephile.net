@@ -53,6 +53,7 @@
             this.label7.Size = new System.Drawing.Size(142, 24);
             this.label7.TabIndex = 49;
             this.label7.Text = "Find Username:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // textBox4
             // 
@@ -60,6 +61,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(195, 22);
             this.textBox4.TabIndex = 50;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label1
             // 
@@ -72,6 +74,7 @@
             this.label1.Size = new System.Drawing.Size(50, 24);
             this.label1.TabIndex = 53;
             this.label1.Text = "Sort:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
@@ -84,6 +87,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(144, 24);
             this.comboBox1.TabIndex = 54;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // showListBox
             // 
@@ -93,6 +97,7 @@
             this.showListBox.Name = "showListBox";
             this.showListBox.Size = new System.Drawing.Size(466, 340);
             this.showListBox.TabIndex = 55;
+            this.showListBox.SelectedIndexChanged += new System.EventHandler(this.showListBox_SelectedIndexChanged);
             // 
             // button7
             // 
