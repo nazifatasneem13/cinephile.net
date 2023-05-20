@@ -144,7 +144,7 @@ namespace OOP_Cinephile.Net
 
             if(((ratingcombobox.SelectedItem.ToString() == "NC-17")|| (ratingcombobox.SelectedItem.ToString() == "R")) && int.Parse(_age) < 17)
             {
-                MessageBox.Show("You are not old enough to select NC-17 rating!");
+                MessageBox.Show("You are not old enough to select this rating!Please choose again.");
                 ShowNameTB.Text = string.Empty;
                 genrecombobox.Text = string.Empty;
                 ratingcombobox.Text = string.Empty;
@@ -180,12 +180,12 @@ namespace OOP_Cinephile.Net
         public void List1(List<Show> showList,string listName)
         {
             planToWatchListBox.Items.Clear();
-            planToWatchListBox.Items.Add("Name   \tGenre \tRating \tReview");
+            planToWatchListBox.Items.Add("Name\tGenre\tRating\tReview");
             foreach (Show show in showList)
             {
 
 
-                string showInfo = $"{show.Name}  \t{show.Genre} \t{show.Rating} \t{show.Review}";
+                string showInfo = $"{show.Name}\t{show.Genre}\t{show.Rating}\t{show.Review}";
                 planToWatchListBox.Items.Add(showInfo);
 
             }
@@ -193,12 +193,12 @@ namespace OOP_Cinephile.Net
         public void List2(List<Show> showList, string listName)
         {
             WatchedListBox.Items.Clear();
-            WatchedListBox.Items.Add("Name \tGenre \tRating \tReview");
+            WatchedListBox.Items.Add("Name\tGenre\tRating\tReview");
             foreach (Show show in showList)
             {
 
 
-                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                string showInfo = $"{show.Name}\t{show.Genre}\t{show.Rating}\t{show.Review}";
                 WatchedListBox.Items.Add(showInfo);
 
             }
@@ -206,12 +206,12 @@ namespace OOP_Cinephile.Net
         public void List3(List<Show> showList, string listName)
         {
             DroppedListBox.Items.Clear();
-            DroppedListBox.Items.Add("Name \tGenre \tRating \tReview");
+            DroppedListBox.Items.Add("Name\tGenre\tRating\tReview");
             foreach (Show show in showList)
             {
 
 
-                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                string showInfo = $"{show.Name}\t{show.Genre}\t{show.Rating}\t{show.Review}";
                 DroppedListBox.Items.Add(showInfo);
 
             }
@@ -219,12 +219,12 @@ namespace OOP_Cinephile.Net
         public void List4(List<Show> showList, string listName)
         {
             FavoritesListBox.Items.Clear();
-            FavoritesListBox.Items.Add("Name \tGenre \tRating \tReview");
+            FavoritesListBox.Items.Add("Name\tGenre\tRating\tReview");
             foreach (Show show in showList)
             {
 
 
-                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                string showInfo = $"{show.Name}\t{show.Genre}\t{show.Rating}\t{show.Review}";
                 FavoritesListBox.Items.Add(showInfo);
 
             }
