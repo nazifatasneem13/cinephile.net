@@ -68,7 +68,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(1112, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 46);
+            this.label3.Size = new System.Drawing.Size(111, 45);
             this.label3.TabIndex = 41;
             this.label3.Text = "label3";
             // 
@@ -241,7 +241,7 @@
             // 
             // ShowNameTB
             // 
-            this.ShowNameTB.Location = new System.Drawing.Point(236, 46);
+            this.ShowNameTB.Location = new System.Drawing.Point(253, 49);
             this.ShowNameTB.Name = "ShowNameTB";
             this.ShowNameTB.Size = new System.Drawing.Size(195, 21);
             this.ShowNameTB.TabIndex = 42;
@@ -252,7 +252,7 @@
             this.label4.BackColor = System.Drawing.Color.Black;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(12, 49);
+            this.label4.Location = new System.Drawing.Point(35, 51);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(198, 19);
             this.label4.TabIndex = 43;
@@ -284,7 +284,7 @@
             // 
             // ReviewTB
             // 
-            this.ReviewTB.Location = new System.Drawing.Point(236, 112);
+            this.ReviewTB.Location = new System.Drawing.Point(253, 110);
             this.ReviewTB.Name = "ReviewTB";
             this.ReviewTB.Size = new System.Drawing.Size(195, 21);
             this.ReviewTB.TabIndex = 47;
@@ -334,16 +334,17 @@
             this.ratingcombobox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ratingcombobox.Items.AddRange(new object[] {
             ""});
-            this.ratingcombobox.Location = new System.Drawing.Point(236, 75);
+            this.ratingcombobox.Location = new System.Drawing.Point(253, 76);
             this.ratingcombobox.Name = "ratingcombobox";
             this.ratingcombobox.Size = new System.Drawing.Size(195, 23);
             this.ratingcombobox.TabIndex = 52;
+            this.ratingcombobox.SelectedIndexChanged += new System.EventHandler(this.ratingcombobox_SelectedIndexChanged);
             // 
             // genrecombobox
             // 
             this.genrecombobox.FormattingEnabled = true;
             this.genrecombobox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.genrecombobox.Location = new System.Drawing.Point(236, 142);
+            this.genrecombobox.Location = new System.Drawing.Point(253, 139);
             this.genrecombobox.Name = "genrecombobox";
             this.genrecombobox.Size = new System.Drawing.Size(195, 23);
             this.genrecombobox.TabIndex = 53;

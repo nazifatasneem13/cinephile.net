@@ -70,7 +70,7 @@ namespace OOP_Cinephile.Net
             string rating = ratingcombobox.Text;
             string review = ReviewTB.Text;
 
-            MessageBox.Show("Please hoose where to add the show.", "Add Show", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show("Please choose where to add the show.", "Add Show", MessageBoxButtons.OK, MessageBoxIcon.Question);
 
             addToListComboBox.Items.Clear();
             addToListComboBox.Items.AddRange(new object[] { "Plan to Watch", "Watched", "Dropped", "Favorites" });
@@ -140,38 +140,50 @@ namespace OOP_Cinephile.Net
             string selectedListType = addToListComboBox.SelectedItem.ToString();
             Show show = new Show(ShowNameTB.Text, genrecombobox.SelectedItem.ToString(), ratingcombobox.SelectedItem.ToString(), ReviewTB.Text);
 
-            switch (selectedListType)
+            if(ratingcombobox.SelectedItem.ToString() == "NC-17" && int.Parse(_age) < 17)
             {
-                case "Plan to Watch":
-                    planToWatchList.Add(show);
-                    break;
-                case "Watched":
-                    watchedList.Add(show);
-                    break;
-                case "Dropped":
-                    droppedList.Add(show);
-                    break;
-                case "Favorites":
-                    favoritesList.Add(show);
-                    break;
+                MessageBox.Show("You are not old enough to select NC-17 rating!");
+                ShowNameTB.Text = string.Empty;
+                genrecombobox.Text = string.Empty;
+                ratingcombobox.Text = string.Empty;
+                ReviewTB.Text = string.Empty;
             }
+            else
+            {
+                switch (selectedListType)
+                {
+                    case "Plan to Watch":
+                        planToWatchList.Add(show);
+                        break;
+                    case "Watched":
+                        watchedList.Add(show);
+                        break;
+                    case "Dropped":
+                        droppedList.Add(show);
+                        break;
+                    case "Favorites":
+                        favoritesList.Add(show);
+                        break;
+                }
 
-            MessageBox.Show("Show added successfully");
-            ShowNameTB.Text = string.Empty;
-            genrecombobox.Text = string.Empty;
-            ratingcombobox.Text = string.Empty;
-            ReviewTB.Text = string.Empty;
+                MessageBox.Show("Show added successfully");
+                ShowNameTB.Text = string.Empty;
+                genrecombobox.Text = string.Empty;
+                ratingcombobox.Text = string.Empty;
+                ReviewTB.Text = string.Empty;
+            }
+             
         }
         
         public void List1(List<Show> showList,string listName)
         {
             planToWatchListBox.Items.Clear();
-            planToWatchListBox.Items.Add("Name \tGenre \tRating \tReview");
+            planToWatchListBox.Items.Add("Name   \tGenre \tRating \tReview");
             foreach (Show show in showList)
             {
 
 
-                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                string showInfo = $"{show.Name}  \t{show.Genre} \t{show.Rating} \t{show.Review}";
                 planToWatchListBox.Items.Add(showInfo);
 
             }
@@ -248,6 +260,11 @@ namespace OOP_Cinephile.Net
             Form4 form4 = new Form4();
             form4.Show();
             this.Hide();
+        }
+
+        private void ratingcombobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
