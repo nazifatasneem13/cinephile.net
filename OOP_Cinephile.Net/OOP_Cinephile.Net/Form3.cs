@@ -140,7 +140,7 @@ namespace OOP_Cinephile.Net
             string selectedListType = addToListComboBox.SelectedItem.ToString();
             Show show = new Show(ShowNameTB.Text, genrecombobox.SelectedItem.ToString(), ratingcombobox.SelectedItem.ToString(), ReviewTB.Text);
 
-            if(ratingcombobox.SelectedItem.ToString() == "NC-17" && int.Parse(_age) < 17)
+            if(((ratingcombobox.SelectedItem.ToString() == "NC-17")|| (ratingcombobox.SelectedItem.ToString() == "R")) && int.Parse(_age) < 17)
             {
                 MessageBox.Show("You are not old enough to select NC-17 rating!");
                 ShowNameTB.Text = string.Empty;
