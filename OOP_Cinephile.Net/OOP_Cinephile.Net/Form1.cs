@@ -34,7 +34,7 @@ namespace OOP_Cinephile.Net
             if (isValid)
             {
                 // Redirect to Form3
-                Form3 form3 = new Form3(name);
+                Form3 form3 = new Form3(name,age);
                 form3.Show();
                 this.Hide();
             }
@@ -74,6 +74,11 @@ namespace OOP_Cinephile.Net
             Form2 f2 = new Form2();
             f2.Show();
             this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

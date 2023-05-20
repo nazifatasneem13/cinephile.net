@@ -11,10 +11,12 @@ namespace OOP_Cinephile.Net
         public string Name { get; set; }
         public string Genre { get; set; }
         public string Rating { get; set; }
+
         
 
         public string Review { get; set; }
-        public ListType ListType { get; set; }
+        
+        
 
         public Show(string name, string genre, string rating, string review)
         {

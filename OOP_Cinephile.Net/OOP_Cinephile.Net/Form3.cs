@@ -10,34 +10,43 @@ using System.Windows.Forms;
 
 namespace OOP_Cinephile.Net
 {
-    public enum ListType
-    {
-        PlanToWatch,
-        Watched,
-        Dropped,
-        Favorites
-    }
+    
     public partial class Form3 : Form
     {
-        private string userName;
-        private List<Show> planToWatchList;
-        private List<Show> watchedList;
-        private List<Show> droppedList;
-        private List<Show> favoritesList;
+        public string userName;
+        public string _age;
+        public List<Show> planToWatchList;
+        public List<Show> watchedList;
+        public List<Show> droppedList;
+        public List<Show> favoritesList;
         public Form3()
         {
         }
         
-        public Form3(string name)
+        public Form3(string name,string age)
         {
             InitializeComponent();
             userName = name;
+            _age = age;
             
             label3.Text = $"Welcome, {name}!";
             planToWatchList = new List<Show>();
             watchedList = new List<Show>();
             droppedList = new List<Show>();
             favoritesList = new List<Show>();
+            ratingcombobox.Items.Add("G");
+            ratingcombobox.Items.Add("PG");
+            ratingcombobox.Items.Add("PG-13");
+            ratingcombobox.Items.Add("R");
+            ratingcombobox.Items.Add("NC-17");
+
+            // Populate the genreComboBox with options
+            genrecombobox.Items.Add("Action");
+            genrecombobox.Items.Add("Comedy");
+            genrecombobox.Items.Add("Drama");
+            genrecombobox.Items.Add("Fantasy");
+
+
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -54,11 +63,11 @@ namespace OOP_Cinephile.Net
             this.Hide();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        public void button5_Click(object sender, EventArgs e)
         {
             string showName = ShowNameTB.Text;
-            string genre = GenreTB.Text;
-            string rating = RatingTB.Text;
+            string genre = genrecombobox.Text;
+            string rating = ratingcombobox.Text;
             string review = ReviewTB.Text;
 
             MessageBox.Show("Please hoose where to add the show.", "Add Show", MessageBoxButtons.OK, MessageBoxIcon.Question);
@@ -104,28 +113,32 @@ namespace OOP_Cinephile.Net
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DisplayShowList(planToWatchList, "Plan to Watch Shows");
+            string selectedGenre = genrecombobox.SelectedItem.ToString();
+            List1(planToWatchList, $"Plan to Watch Shows - {selectedGenre}");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DisplayShowList(watchedList, "Watched Shows");
+            string selectedGenre = genrecombobox.SelectedItem.ToString();
+            List2(watchedList,  $"Watched Shows - {selectedGenre}");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DisplayShowList(droppedList, "Dropped Shows");
+            string selectedGenre = genrecombobox.SelectedItem.ToString();
+            List3(droppedList, $"Dropped Shows - {selectedGenre}");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DisplayShowList(favoritesList, "Favorite Shows");
+            string selectedGenre = genrecombobox.SelectedItem.ToString();
+            List4(favoritesList, $"Favorite Shows - {selectedGenre}");
         }
 
-        private void AddtoSelectedList_Click(object sender, EventArgs e)
+        public void AddtoSelectedList_Click(object sender, EventArgs e)
         {
             string selectedListType = addToListComboBox.SelectedItem.ToString();
-            Show show = new Show(ShowNameTB.Text, GenreTB.Text, RatingTB.Text, ReviewTB.Text);
+            Show show = new Show(ShowNameTB.Text, genrecombobox.SelectedItem.ToString(), ratingcombobox.SelectedItem.ToString(), ReviewTB.Text);
 
             switch (selectedListType)
             {
@@ -145,25 +158,89 @@ namespace OOP_Cinephile.Net
 
             MessageBox.Show("Show added successfully");
             ShowNameTB.Text = string.Empty;
-            GenreTB.Text = string.Empty;
-            RatingTB.Text = string.Empty;
+            genrecombobox.Text = string.Empty;
+            ratingcombobox.Text = string.Empty;
             ReviewTB.Text = string.Empty;
         }
-        private void DisplayShowList(List<Show> showList, string listName)
+        
+        public void List1(List<Show> showList,string listName)
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"--- {listName} ---");
-
+            planToWatchListBox.Items.Clear();
+            planToWatchListBox.Items.Add("Name \tGenre \tRating \tReview");
             foreach (Show show in showList)
             {
-                sb.AppendLine($"Name: {show.Name}");
-                sb.AppendLine($"Genre: {show.Genre}");
-                sb.AppendLine($"Rating: {show.Rating}");
-                sb.AppendLine($"Review: {show.Review}");
-                sb.AppendLine("-----------------------");
-            }
 
-            MessageBox.Show(sb.ToString());
+
+                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                planToWatchListBox.Items.Add(showInfo);
+
+            }
+        }
+        public void List2(List<Show> showList, string listName)
+        {
+            WatchedListBox.Items.Clear();
+            WatchedListBox.Items.Add("Name \tGenre \tRating \tReview");
+            foreach (Show show in showList)
+            {
+
+
+                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                WatchedListBox.Items.Add(showInfo);
+
+            }
+        }
+        public void List3(List<Show> showList, string listName)
+        {
+            DroppedListBox.Items.Clear();
+            DroppedListBox.Items.Add("Name \tGenre \tRating \tReview");
+            foreach (Show show in showList)
+            {
+
+
+                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                DroppedListBox.Items.Add(showInfo);
+
+            }
+        }
+        public void List4(List<Show> showList, string listName)
+        {
+            FavoritesListBox.Items.Clear();
+            FavoritesListBox.Items.Add("Name \tGenre \tRating \tReview");
+            foreach (Show show in showList)
+            {
+
+
+                string showInfo = $"{show.Name}\t{show.Genre} \t{show.Rating} \t{show.Review}";
+                FavoritesListBox.Items.Add(showInfo);
+
+            }
+        }
+
+
+
+        private void WatchedListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlanButton_Click(object sender, EventArgs e)
+        {
+            planToWatchListBox.Items.Clear();
+        }
+
+        private void watchedButton_Click(object sender, EventArgs e)
+        {
+            WatchedListBox.Items.Clear();
+        }
+
+        private void droppedButton_Click(object sender, EventArgs e)
+        {
+            DroppedListBox.Items.Clear();
+        }
+
+        private void favoritesButton_Click(object sender, EventArgs e)
+        {
+            FavoritesListBox.Items.Clear();
         }
     }
 }

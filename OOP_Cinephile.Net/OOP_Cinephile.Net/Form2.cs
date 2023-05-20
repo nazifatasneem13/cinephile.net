@@ -27,6 +27,7 @@ namespace OOP_Cinephile.Net
             string email = MailTB1.Text;
             string password = PasswordTB1.Text;
             string retypePassword = RePassTB.Text;
+            
 
             // Check if the name is unique
             if (IsNameUnique(name))
@@ -97,6 +98,21 @@ namespace OOP_Cinephile.Net
             Form1 f1 = new Form1();
             f1.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, pictureBox1.ClientRectangle, Color.Black, ButtonBorderStyle.Solid);
         }
     }
 }
