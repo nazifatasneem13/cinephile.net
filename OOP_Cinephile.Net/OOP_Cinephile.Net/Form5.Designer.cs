@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(337, 210);
+            this.button1.Location = new System.Drawing.Point(590, 363);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 42);
             this.button1.TabIndex = 3;
@@ -46,10 +46,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Azure;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(265, 144);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(441, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 26);
+            this.label1.Size = new System.Drawing.Size(411, 46);
             this.label1.TabIndex = 2;
             this.label1.Text = "COME BACK AGAIN!";
             // 
@@ -58,11 +58,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1276, 659);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Last Page";
             this.ResumeLayout(false);
             this.PerformLayout();
 

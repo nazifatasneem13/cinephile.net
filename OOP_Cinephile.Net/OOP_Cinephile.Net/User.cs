@@ -35,7 +35,7 @@ namespace OOP_Cinephile.Net
             watchlists.Remove(watchlist);
         }
 
-        public void ModifyRating(string showName, int rating)
+        public void ModifyRating(string showName, string rating)
         {
             foreach (Watchlist watchlist in watchlists)
             {

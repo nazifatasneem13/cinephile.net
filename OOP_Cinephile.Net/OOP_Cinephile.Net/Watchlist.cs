@@ -25,7 +25,7 @@ namespace OOP_Cinephile.Net
             shows.Remove(show);
         }
 
-        public void ModifyRating(string showName, int rating)
+        public void ModifyRating(string showName, string rating)
         {
             Show show = shows.Find(s => s.Name == showName);
             if (show != null)

@@ -58,7 +58,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(578, 32);
+            this.label3.Location = new System.Drawing.Point(602, 26);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 41;
@@ -66,7 +66,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(1110, 620);
+            this.button8.Location = new System.Drawing.Point(1134, 614);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(83, 33);
             this.button8.TabIndex = 40;
@@ -76,7 +76,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(21, 620);
+            this.button7.Location = new System.Drawing.Point(45, 614);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(83, 33);
             this.button7.TabIndex = 39;
@@ -86,7 +86,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(543, 560);
+            this.button6.Location = new System.Drawing.Point(567, 554);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 36);
             this.button6.TabIndex = 38;
@@ -96,7 +96,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(498, 117);
+            this.button5.Location = new System.Drawing.Point(522, 111);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(90, 36);
             this.button5.TabIndex = 37;
@@ -108,7 +108,7 @@
             // 
             this.FavoritesListBox.FormattingEnabled = true;
             this.FavoritesListBox.ItemHeight = 16;
-            this.FavoritesListBox.Location = new System.Drawing.Point(920, 229);
+            this.FavoritesListBox.Location = new System.Drawing.Point(944, 223);
             this.FavoritesListBox.Name = "FavoritesListBox";
             this.FavoritesListBox.Size = new System.Drawing.Size(273, 308);
             this.FavoritesListBox.TabIndex = 36;
@@ -117,7 +117,7 @@
             // 
             this.DroppedListBox.FormattingEnabled = true;
             this.DroppedListBox.ItemHeight = 16;
-            this.DroppedListBox.Location = new System.Drawing.Point(615, 229);
+            this.DroppedListBox.Location = new System.Drawing.Point(639, 223);
             this.DroppedListBox.Name = "DroppedListBox";
             this.DroppedListBox.Size = new System.Drawing.Size(273, 308);
             this.DroppedListBox.TabIndex = 35;
@@ -126,7 +126,7 @@
             // 
             this.WatchedListBox.FormattingEnabled = true;
             this.WatchedListBox.ItemHeight = 16;
-            this.WatchedListBox.Location = new System.Drawing.Point(315, 229);
+            this.WatchedListBox.Location = new System.Drawing.Point(339, 223);
             this.WatchedListBox.Name = "WatchedListBox";
             this.WatchedListBox.Size = new System.Drawing.Size(273, 308);
             this.WatchedListBox.TabIndex = 34;
@@ -135,14 +135,14 @@
             // 
             this.planToWatchListBox.FormattingEnabled = true;
             this.planToWatchListBox.ItemHeight = 16;
-            this.planToWatchListBox.Location = new System.Drawing.Point(21, 229);
+            this.planToWatchListBox.Location = new System.Drawing.Point(45, 223);
             this.planToWatchListBox.Name = "planToWatchListBox";
             this.planToWatchListBox.Size = new System.Drawing.Size(273, 308);
             this.planToWatchListBox.TabIndex = 33;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(999, 174);
+            this.button4.Location = new System.Drawing.Point(1023, 168);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 36);
             this.button4.TabIndex = 32;
@@ -152,7 +152,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(700, 174);
+            this.button3.Location = new System.Drawing.Point(724, 168);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 36);
             this.button3.TabIndex = 31;
@@ -162,7 +162,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(386, 174);
+            this.button2.Location = new System.Drawing.Point(410, 168);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 36);
             this.button2.TabIndex = 30;
@@ -172,7 +172,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(95, 174);
+            this.button1.Location = new System.Drawing.Point(119, 168);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 36);
             this.button1.TabIndex = 29;
@@ -184,7 +184,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(939, 66);
+            this.label1.Location = new System.Drawing.Point(963, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 18);
             this.label1.TabIndex = 26;
@@ -198,7 +198,7 @@
             "Alphatebically",
             "Rating",
             "Genre"});
-            this.comboBox1.Location = new System.Drawing.Point(985, 65);
+            this.comboBox1.Location = new System.Drawing.Point(1009, 59);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(144, 24);
             this.comboBox1.TabIndex = 25;
@@ -206,7 +206,7 @@
             // 
             // ShowNameTB
             // 
-            this.ShowNameTB.Location = new System.Drawing.Point(212, 26);
+            this.ShowNameTB.Location = new System.Drawing.Point(236, 20);
             this.ShowNameTB.Name = "ShowNameTB";
             this.ShowNameTB.Size = new System.Drawing.Size(195, 22);
             this.ShowNameTB.TabIndex = 42;
@@ -215,7 +215,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 30);
+            this.label4.Location = new System.Drawing.Point(36, 24);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(174, 18);
             this.label4.TabIndex = 43;
@@ -225,7 +225,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(127, 57);
+            this.label5.Location = new System.Drawing.Point(151, 51);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 18);
             this.label5.TabIndex = 44;
@@ -235,7 +235,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(121, 90);
+            this.label6.Location = new System.Drawing.Point(145, 84);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 18);
             this.label6.TabIndex = 45;
@@ -243,14 +243,14 @@
             // 
             // RatingTB
             // 
-            this.RatingTB.Location = new System.Drawing.Point(212, 62);
+            this.RatingTB.Location = new System.Drawing.Point(236, 56);
             this.RatingTB.Name = "RatingTB";
             this.RatingTB.Size = new System.Drawing.Size(195, 22);
             this.RatingTB.TabIndex = 46;
             // 
             // ReviewTB
             // 
-            this.ReviewTB.Location = new System.Drawing.Point(212, 90);
+            this.ReviewTB.Location = new System.Drawing.Point(236, 84);
             this.ReviewTB.Name = "ReviewTB";
             this.ReviewTB.Size = new System.Drawing.Size(195, 22);
             this.ReviewTB.TabIndex = 47;
@@ -259,7 +259,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(127, 127);
+            this.label7.Location = new System.Drawing.Point(151, 121);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 18);
             this.label7.TabIndex = 48;
@@ -267,7 +267,7 @@
             // 
             // GenreTB
             // 
-            this.GenreTB.Location = new System.Drawing.Point(212, 124);
+            this.GenreTB.Location = new System.Drawing.Point(236, 118);
             this.GenreTB.Name = "GenreTB";
             this.GenreTB.Size = new System.Drawing.Size(195, 22);
             this.GenreTB.TabIndex = 49;
@@ -281,14 +281,14 @@
             "Watched",
             "Dropped",
             "Favorites"});
-            this.addToListComboBox.Location = new System.Drawing.Point(615, 124);
+            this.addToListComboBox.Location = new System.Drawing.Point(639, 118);
             this.addToListComboBox.Name = "addToListComboBox";
             this.addToListComboBox.Size = new System.Drawing.Size(174, 24);
             this.addToListComboBox.TabIndex = 50;
             // 
             // AddtoSelectedList
             // 
-            this.AddtoSelectedList.Location = new System.Drawing.Point(820, 117);
+            this.AddtoSelectedList.Location = new System.Drawing.Point(844, 111);
             this.AddtoSelectedList.Name = "AddtoSelectedList";
             this.AddtoSelectedList.Size = new System.Drawing.Size(90, 36);
             this.AddtoSelectedList.TabIndex = 51;
@@ -301,7 +301,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(1224, 686);
+            this.ClientSize = new System.Drawing.Size(1276, 659);
             this.Controls.Add(this.AddtoSelectedList);
             this.Controls.Add(this.addToListComboBox);
             this.Controls.Add(this.GenreTB);
@@ -329,8 +329,8 @@
             this.Controls.Add(this.comboBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Watchlist";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
