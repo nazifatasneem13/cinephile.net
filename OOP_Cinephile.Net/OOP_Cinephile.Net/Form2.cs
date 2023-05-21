@@ -27,7 +27,7 @@ namespace OOP_Cinephile.Net
             string email = MailTB1.Text;
             string password = PasswordTB1.Text;
             string retypePassword = RePassTB.Text;
-            
+
 
             // Check if the name is unique
             if (IsNameUnique(name))
@@ -35,21 +35,29 @@ namespace OOP_Cinephile.Net
                 // Check if the password and retype password match
                 if (password == retypePassword)
                 {
-                    // Check if the email is valid
-                    if (IsValidEmail(email))
+                    // Check if the name and password meet the length requirement
+                    if (name.Length >= 6 && password.Length >= 6)
                     {
-                        // Add the user to the text file
-                        string line = $"{name},{age},{email},{password}";
-                        File.AppendAllText("Credentials.txt", $"{line}{Environment.NewLine}");
+                        // Check if the email is valid
+                        if (IsValidEmail(email))
+                        {
+                            // Add the user to the text file
+                            string line = $"{name},{age},{email},{password}";
+                            File.AppendAllText("Credentials.txt", $"{line}{Environment.NewLine}");
 
-                        // Redirect to Form1
-                        Form1 form1 = new Form1();
-                        form1.Show();
-                        this.Hide();
+                            // Redirect to Form1
+                            Form1 form1 = new Form1();
+                            form1.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid Email");
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("Invalid Email!Must contain @.");
+                        MessageBox.Show("Name and password must be at least six characters long");
                     }
                 }
                 else

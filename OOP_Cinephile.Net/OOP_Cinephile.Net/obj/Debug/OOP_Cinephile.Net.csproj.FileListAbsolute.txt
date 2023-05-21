@@ -94,3 +94,20 @@ C:\Users\Dell\OneDrive\Desktop\New folder\cinephile.net\OOP_Cinephile.Net\OOP_Ci
 C:\Users\Dell\OneDrive\Desktop\New folder\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.CoreCompileInputs.cache
 C:\Users\Dell\OneDrive\Desktop\New folder\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.exe
 C:\Users\Dell\OneDrive\Desktop\New folder\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.pdb
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe.config
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.exe
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\bin\Debug\OOP_Cinephile.Net.pdb
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form1.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form2.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form3.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form4.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form5.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Form6.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.front.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.Properties.Resources.resources
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.GenerateResource.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.exe
+C:\Users\Dell\OneDrive\Desktop\New folder (2)\cinephile.net\OOP_Cinephile.Net\OOP_Cinephile.Net\obj\Debug\OOP_Cinephile.Net.pdb
