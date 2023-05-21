@@ -105,9 +105,9 @@
             // 
             this.CreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateAccount.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.CreateAccount.Location = new System.Drawing.Point(713, 487);
+            this.CreateAccount.Location = new System.Drawing.Point(713, 491);
             this.CreateAccount.Name = "CreateAccount";
-            this.CreateAccount.Size = new System.Drawing.Size(145, 49);
+            this.CreateAccount.Size = new System.Drawing.Size(145, 76);
             this.CreateAccount.TabIndex = 18;
             this.CreateAccount.Text = "Create Account!";
             this.CreateAccount.UseVisualStyleBackColor = true;
